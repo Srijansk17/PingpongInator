@@ -1,0 +1,30 @@
+Board 1 (Master):
+LCD16x2:
+
+RS → GPIO12
+EN → GPIO14
+D4 → GPIO27
+D5 → GPIO26
+D6 → GPIO25
+D7 → GPIO33
+VO → Potentiometer (contrast control)
+VSS → GND
+VDD → 5V
+A → 5V (backlight)
+K → GND (backlight)
+Joystick:
+
+VCC → 3.3V
+GND → GND
+VRX → GPIO34
+VRY → GPIO35
+SW → GPIO32
+Buttons for Game Mode:
+
+Button 1 → GPIO13 (Single Player) - D23
+Button 2 → GPIO12 (Multiplayer) - D22
+Board 2 (Slave):
+Buttons for Player 2 (Up and Down):
+Button 1 (Up) → GPIO14
+Button 2 (Down) → GPIO15
+Both buttons' other pin → GND

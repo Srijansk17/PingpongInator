@@ -1,0 +1,9 @@
+	
+Buttons 
+Button 1 → GPIO23 (Single Player)
+Button 2 → GPIO22 (Multiplayer)
+Board 2 (Slave):
+Buttons for Player 2 (Up and Down):
+Button 1 (Up) → GPIO23
+Button 2 (Down) → GPIO32
+Both buttons' other pin → GND
